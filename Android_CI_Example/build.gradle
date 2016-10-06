@@ -1,5 +1,6 @@
 apply plugin: 'android'
 apply plugin: 'android-test'
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 19
