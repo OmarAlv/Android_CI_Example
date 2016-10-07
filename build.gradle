@@ -6,6 +6,8 @@ buildscript {
         maven {
             url 'https://oss.sonatype.org/content/repositories/snapshots/'
         }
+        classpath localGroovy()
+        classpath "gav of plugin", transitive: true
     }
     dependencies {
          classpath 'com.android.tools.build:gradle:1.1.3'
